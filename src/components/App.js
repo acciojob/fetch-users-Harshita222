@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import UserTable from './components/UserTable';
+import UserTable from './UserTable';
 
 import '../styles/App.css';
 const App = () => {
