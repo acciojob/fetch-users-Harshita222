@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import UserTable from './UserTable';
 
-import '../styles/App.css';
 const App = () => {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(false);
